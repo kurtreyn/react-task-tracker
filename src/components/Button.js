@@ -1,4 +1,4 @@
-// import PropTypes from './prp-types';
+import PropTypes from 'prop-types';
 
 const Button = ({ color, text }) => {
   return (
@@ -12,9 +12,9 @@ Button.defaultPorps = {
   color: 'steelblue',
 };
 
-// Button.propTypes = {
-//   text: PropTypes.string,
-//   color: PropTypes.string,
-// };
+Button.propTypes = {
+  text: PropTypes.string,
+  color: PropTypes.string,
+};
 
 export default Button;
